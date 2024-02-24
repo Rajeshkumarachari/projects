@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+/* calender project css*/
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #838383;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 50px;
+  background-color: rgb(85, 97, 136);
+  padding-left: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+  flex-wrap: nowrap;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .navlink {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: sans-serif;
+  background-color: rgb(85, 97, 136);
+  margin-right: 17px;
+}
+.navbar .navlink:hover {
+  color: rgb(225, 225, 250);
 }
