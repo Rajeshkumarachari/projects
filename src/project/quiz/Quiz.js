@@ -38,7 +38,7 @@ const Quiz = () => {
     return () => clearInterval(interval);
   }, [timer, showScore]);
   return (
-    <div className=" body">
+    <div className="body">
       <div className="quiz-app">
         {showScore ? (
           <div className="score">
