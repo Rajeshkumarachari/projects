@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "questions": "Which of the following is used in React.js to increase performance?",
+    "options": [
+      "Virtual DOM",
+      "Original DOM",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctOption": "Virtual DOM"
+  },
+  {
+    "id": 2,
+    "questions": "What is ReactJS?",
+    "options": [
+      "user interface library",
+      "Server-side framework",
+      "both a and b",
+      "none of the above"
+    ],
+    "correctOption": "user interface library"
+  },
+  {
+    "id": 3,
+    "questions": "Identify the one which is used to pass data to components from outside",
+    "options": ["Render with arguments", "setState", "PropsTypes", "props"],
+    "correctOption": "props"
+  },
+  {
+    "id": 4,
+    "questions": "Who created React.js?",
+    "options": ["Jordan Mike", "Jordan Walke", "Time lee", "Jordan Lee"],
+    "correctOption": "Jordan Walke"
+  },
+  {
+    "id": 5,
+    "questions": "What is Babel?",
+    "options": [
+      "JavaScript compiler",
+      "JavaScript interpreter",
+      "JavaScript transpiler",
+      "None of the above"
+    ],
+    "correctOption": "JavaScript compiler"
+  }
+]
