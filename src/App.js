@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Calender from "./project/Calender";
+import Calender from "./project/calender/Calender";
 import { Link } from "react-router-dom";
-import Quiz from "./project/Quiz";
+import Quiz from "./project/quiz/Quiz";
 import { SiFramework } from "react-icons/si";
 
 function App() {

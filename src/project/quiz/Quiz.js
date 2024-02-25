@@ -43,7 +43,6 @@ const Quiz = () => {
         {showScore ? (
           <div className="score">
             <h2 className="h2">
-              {" "}
               Your Score:{score}/{questionData.length}
             </h2>
             <button className=" restart" onClick={handleRestartQuiz}>
@@ -63,7 +62,8 @@ const Quiz = () => {
               ))}
             </div>
             <div className="timer">
-              Timer left: <span className="span">{timer}s</span>
+              {timer > 3 ? "Timer left :" : "Time Over :"}
+              <span className={timer > 3 ? "span" : "spanLow"}>{timer}s</span>
             </div>
           </div>
         )}
