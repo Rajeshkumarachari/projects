@@ -12,15 +12,15 @@ function App() {
         <nav className="navbar">
           <SiFramework className="navLogo" />
           <Link className="navlink" to="/">
-            Todo App
+            Quiz App
           </Link>
           <Link className="navlink" to="/quiz">
-            Quiz App
+            Todo App
           </Link>
         </nav>
         <Routes>
-          <Route path="/" element={<Todos />} />
-          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/" element={<Quiz />} />
+          <Route path="/quiz" element={<Todos />} />
         </Routes>
       </BrowserRouter>
     </>
